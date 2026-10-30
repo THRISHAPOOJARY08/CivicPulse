@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary":"#001329","on-primary-fixed":"#011d35","inverse-surface":"#283044","on-secondary-fixed":"#00201d","inverse-primary":"#b0c9e8","tertiary-fixed-dim":"#abc8f4","outline":"#74777e","on-background":"#131b2e","surface-dim":"#d2d9f4","surface-container-low":"#f2f3ff","on-surface-variant":"#43474d","on-secondary":"#ffffff","on-error-container":"#93000a","on-secondary-container":"#006f66","surface-container-lowest":"#ffffff","on-primary-container":"#7991af","on-primary":"#ffffff","on-tertiary-fixed-variant":"#2a486d","surface-bright":"#faf8ff","secondary-fixed-dim":"#6bd8cb","surface-container":"#eaedff","outline-variant":"#c3c6ce","background":"#faf8ff","on-surface":"#131b2e","primary-container":"#0f2942","error-container":"#ffdad6","secondary-container":"#86f2e4","on-tertiary-container":"#7390b9","surface-variant":"#dae2fd","surface-tint":"#49607c","on-secondary-fixed-variant":"#005049","on-primary-fixed-variant":"#314863","tertiary-container":"#02284b","inverse-on-surface":"#eef0ff","error":"#ba1a1a","on-tertiary":"#ffffff","surface-container-highest":"#dae2fd","on-tertiary-fixed":"#001c38","secondary-fixed":"#89f5e7","on-error":"#ffffff","surface-container-high":"#e2e7ff","secondary":"#006a61","tertiary-fixed":"#d3e4ff","primary-fixed-dim":"#b0c9e8","primary-fixed":"#d1e4ff","primary":"#001428","surface":"#faf8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","space-xs":"0.25rem","space-sm":"0.5rem","margin":"2rem","space-xl":"2.5rem","space-lg":"1.5rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-md":"1rem"},"fontFamily":{"label-sm":["Inter"],"label-lg":["Inter"],"display-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"label-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Inter"]},"fontSize":{"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="CivicPulse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WoMSEfhGj8SOwPzmyHUUZ7N6XhWCMOcL7-Nh7Hot50G2J7WbnfbgnV9L2TJrOe6R3s3WzED153_TtRfx6uxoce_o-yKZHrGybxwupdIxDJnB8AouRapoAXtdAFBUxsg8eZbJtC3k9QOYxCjW-e2OzxXQfCVkWcxDyQItS9C47P5tmf7fxbay3UTXiHGtxVaVd44LjRNmQOt20q1bn5RffVcNGE9x0gl8T7tghNmpqNhw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-none">CivicPulse</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mt-1">Municipal Intelligence</span></div></div><nav class="hidden lg:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary rounded-lg font-label-lg"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="home" href="#">Home</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="report-issue" href="#">Report Issue</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="public-map-trends" href="#">Public Map & Trends</a><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-primary-container text-on-primary rounded-lg font-label-lg" data-path="ai-analysis" href="#">AI Analysis</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors flex items-center gap-space-xs" data-path="admin-portal" href="#">Admin Portal<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Staff</span></a></nav><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center bg-surface-container-low rounded-lg px-space-md py-space-xs gap-space-sm"><span class="material-symbols-outlined text-on-surface-variant text-[20px]">search</span><input class="bg-transparent border-0 outline-none font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant w-56" placeholder="Search cases, areas, or triage IDs..." type="text"/></div><button aria-label="Civic Alerts" class="relative p-space-sm text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2.5 h-2.5 bg-error rounded-full ring-2 ring-surface-container-lowest"></span></button><a class="hidden sm:inline-flex items-center px-space-md py-space-sm font-label-lg text-label-lg bg-surface-container text-primary hover:bg-surface-container-high rounded-lg transition-colors" data-path="citizen-login" href="#">Citizen Sign In</a><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-secondary-container" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOrjb1Tt5VwPr-hWPL6aT1XfctBaZbjy3oRDaaPy54rfwmqoiJHFTN2m3Q3Se-khnTVa6OSizeSJl7MbB9Xz6tpsukuiAo8sntFnsJ92fuCI8dEmjvPYxMf2zSYK-dKe1ofLT3GxvowqCHBG1R7PgZM-X3FHMmQ1yeoru1GPosLcaIQ3VZTxFrdilRaTtP4vhaGdaKKvLu1Fax1wypaufbAWs5q3O51UBqyJ-msNVa"/><div class="hidden md:flex flex-col text-left"><span class="font-label-sm text-label-sm text-primary leading-tight">City Admin</span><span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight">Public Works</span></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<!-- Top Command Meta Bar -->
+<div class="w-full bg-surface-container-low px-margin py-space-md shadow-sm">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant flex-wrap">
+<a class="hover:text-primary transition-colors" href="#">Incident Central</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="font-mono text-on-surface font-semibold">CP-2025-08942</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-secondary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">psychology</span>
+          Neural Triage & Spatial Audit
+        </span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-ping"></span>
+          Audit Ledger #8942-TX
+        </span>
+<span class="font-mono text-on-surface-variant text-[11px]">Sync: Oct 24, 2025 • 09:42:18 EST</span>
+</div>
+</div>
+</div>
+<!-- Operational Status Bar -->
+<div class="w-full bg-primary text-on-primary px-margin py-space-lg shadow-md relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-64 h-64 rounded-full bg-secondary/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto flex flex-col lg:flex-row lg:items-center justify-between gap-space-md relative z-10">
+<div class="space-y-1">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+            Ingestion Confirmed
+          </span>
+<h2 class="font-headline-md text-headline-md text-on-primary tracking-tight">
+            Reference ID: <span class="font-mono font-bold text-secondary-fixed">CP-2025-08942</span>
+</h2>
+</div>
+<p class="font-body-md text-body-md text-surface-container-high flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">alt_route</span>
+          Status: <strong class="text-white">Triage Completed</strong> — Dispatched to District 4 Roadway Response Pool
+        </p>
+</div>
+<div class="flex items-center gap-space-md flex-wrap">
+<div class="bg-primary-container px-space-md py-space-sm rounded-lg flex items-center gap-space-sm">
+<div class="text-right">
+<span class="block font-label-sm text-label-sm text-on-primary-container uppercase">Target SLA Breach</span>
+<span class="font-mono font-bold text-headline-sm text-white">< 23h 48m</span>
+</div>
+<span class="material-symbols-outlined text-secondary-fixed text-[28px]">timer</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container/20 text-on-primary hover:bg-surface-container/30 transition-colors font-label-lg text-label-lg flex items-center gap-1.5 shadow-sm" id="btn-share">
+<span class="material-symbols-outlined text-[18px]">share</span>
+            Share
+          </button>
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container/20 text-on-primary hover:bg-surface-container/30 transition-colors font-label-lg text-label-lg flex items-center gap-1.5 shadow-sm" id="btn-download">
+<span class="material-symbols-outlined text-[18px]">download</span>
+            Export Dossier
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Content Layout Area -->
+<div class="w-full max-w-[1440px] mx-auto px-margin py-space-xl space-y-space-xl">
+<!-- Duplicate Alert Warning Banner (Dynamic Accordion Container) -->
+<div class="w-full rounded-xl bg-surface-container-low shadow-sm overflow-hidden transition-all duration-300">
+<div class="p-space-lg flex flex-col lg:flex-row lg:items-center justify-between gap-space-md bg-gradient-to-r from-surface-container to-surface-container-low">
+<div class="flex items-start sm:items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-error-container text-on-error-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[28px]">join_inner</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded-full bg-error text-on-error font-label-sm text-label-sm">High Cluster Density</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">2 Potential Duplicate Incident Reports Detected</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+              Spatial cross-referencing located overlapping citizen alerts within a <strong>150-meter radius</strong> during the past 48 hours.
+            </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-primary hover:bg-surface-bright font-label-lg text-label-lg shadow-sm transition-all flex items-center gap-1" id="toggle-duplicates">
+<span id="dup-btn-text">Review 2 Matches</span>
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200" id="dup-chevron">expand_more</span>
+</button>
+</div>
+</div>
+<!-- Collapsible Duplicate Cards Drawer -->
+<div class="p-space-lg space-y-space-md bg-surface-container-lowest" id="duplicate-drawer">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Duplicate 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-mono font-semibold text-primary">Ticket #CP-2025-08910</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold">86% Semantic Match</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-medium">Road crack widening near 408 W Highland Blvd</p>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> Reported 18 hrs ago</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">near_me</span> 38m away</span>
+</div>
+</div>
+<div class="pt-2 flex items-center justify-end gap-2">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary hover:bg-primary-container text-label-sm font-label-sm transition-colors shadow-sm" onclick="handleMerge('CP-2025-08910')">
+                Merge with CP-08910
+              </button>
+</div>
+</div>
+<!-- Duplicate 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-mono font-semibold text-primary">Ticket #CP-2025-08892</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-variant text-on-surface-variant font-label-sm text-label-sm font-bold">72% Semantic Match</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-medium">Bumpy road surface & suspension rattle reported</p>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> Reported 2 days ago</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">near_me</span> 112m away</span>
+</div>
+</div>
+<div class="pt-2 flex items-center justify-end gap-2">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary hover:bg-primary-container text-label-sm font-label-sm transition-colors shadow-sm" onclick="handleMerge('CP-2025-08892')">
+                Merge with CP-08892
+              </button>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span>Merging appends civic upvotes, citizen telemetry, and priority weight onto a consolidated master work order.</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high font-label-md text-label-md transition-colors whitespace-nowrap" onclick="handleKeepSeparate()">
+            Confirm as Separate Distinct Issue
+          </button>
+</div>
+</div>
+</div>
+<!-- Asymmetric Bento Triage Workspace -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Core Intelligence Stack (7 cols) -->
+<div class="lg:col-span-7 space-y-space-lg">
+<!-- 1. AI Classification & Routing Card -->
+<div class="rounded-xl bg-surface-container-lowest p-space-xl shadow-md space-y-space-lg relative overflow-hidden">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">cognition</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Multi-Modal Classification</span>
+<h3 class="font-headline-md text-headline-md text-primary">Departmental Routing Audit</h3>
+</div>
+</div>
+<!-- AI Confidence Indicator -->
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary-container/40 text-on-secondary-container shadow-sm self-start sm:self-auto">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span class="font-label-md text-label-md font-bold">98.4% Algorithm Confidence</span>
+</div>
+</div>
+<!-- Hierarchy Triage Flow Box -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Primary Taxonomy</span>
+<p class="font-headline-sm text-headline-sm text-primary font-bold">Roads & Transportation Infrastructure</p>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary pt-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                Corroborated by Satellite GIS Overlay
+              </div>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sub-Category Variant</span>
+<p class="font-body-lg text-body-lg text-on-surface font-semibold">Hazardous Asphalt Degradation / Severe Pothole</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Class III Surface Cavity with Base Exposure</p>
+</div>
+</div>
+<!-- Target Department Matrix -->
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-md p-space-md rounded-lg bg-surface-container">
+<div class="p-2 rounded-lg bg-surface-container-lowest text-primary shadow-sm mt-0.5">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Assigned Agency & District</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Direct Auto-Route</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Bureau of Street Services & Highway Maintenance</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">District 4 Operations Yard • Dispatch Terminal Alpha-7</p>
+</div>
+</div>
+<!-- Dynamic SLA Timeline Bar -->
+<div class="p-space-md rounded-lg bg-primary text-on-primary shadow-sm space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">bolt</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary-fixed">Prescribed SLA Response Timeframe</span>
+</div>
+<span class="font-mono text-label-md text-label-md text-white font-bold">< 24 Hours</span>
+</div>
+<div class="w-full bg-primary-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary-fixed h-full rounded-full transition-all duration-1000" style="width: 14%"></div>
+</div>
+<p class="font-body-sm text-body-sm text-surface-container-high text-right">
+                Standard SLA: 72 hrs • <strong class="text-white">Escalated by Priority Override: Urgent Municipal Action Protocol</strong>
+</p>
+</div>
+</div>
+<!-- Visual Evidence Photo Analysis with Vision AI Points -->
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-primary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+                Citizen Upload Telemetry & Vision Segmentation
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Model: CivicVision-v4.2</span>
+</div>
+<div class="relative w-full h-72 rounded-xl overflow-hidden shadow-sm group">
+<img class="w-full h-full object-cover" data-alt="Close up photographic municipal evidence of a severe, jagged asphalt pothole on a rain-dampened city street with depth exposure, urban asphalt texture, road markings in muted municipal teal and cool slate blue tones, shot in daytime overcast lighting with high technical clarity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuApE_MihaPhkNX5D3Ep8vhO998DRqViYFCyI28LQUQRdRuB7UxUXf9jGOXrP09fF6nmbIES1MwH7-rTnBg49nGxr9kVN9tObZERcRtFu52allFvMvSoHAK0bTL8pumtsVC5_CuPcSzLwiNcu52EVh0AwhpLMVttVBxXKShAQZsbM2epkJIny69sxTCGYwDx898p5Q8XdK_nSkguDFuLI6t91iWzQse0lUYx44W-9wbU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-black/20"></div>
+<!-- Computer Vision Overlays -->
+<div class="absolute top-4 left-4 px-2.5 py-1 rounded bg-black/75 backdrop-blur text-white font-mono text-[11px] flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-pulse"></span>
+                DEPTH: 4.2 in | DIAMETER: 14.8 in
+              </div>
+<!-- Interactive Detection Box Simulated -->
+<div class="absolute inset-x-12 inset-y-12 rounded-lg border-2 border-dashed border-secondary-fixed/90 pointer-events-none flex items-start justify-end p-2">
+<span class="px-2 py-0.5 rounded bg-secondary text-on-secondary font-mono text-[10px] font-bold uppercase tracking-wider">
+                  Cavity Void Segment #1 (99.1%)
+                </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white font-label-sm text-label-sm">
+<span>Location: West Highland Blvd (Northbound, Lane 2)</span>
+<span class="font-mono">EXIF GPS: 34.0984° N, 118.3418° W</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 2. Smart Summary & Key Entity Extraction -->
+<div class="rounded-xl bg-surface-container-lowest p-space-xl shadow-md space-y-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container text-on-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">summarize</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Natural Language Pipeline</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Executive Incident Extraction</h3>
+</div>
+</div>
+<!-- Highlight Block -->
+<div class="p-space-md rounded-lg bg-surface-container-low text-on-surface space-y-2">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">AI Executive Synthesis</span>
+<p class="font-body-lg text-body-lg text-primary leading-relaxed">
+              “Citizen reported a <strong class="underline decoration-secondary decoration-2 font-semibold">~14-inch diameter, 4-inch deep pothole</strong> on northbound West Highland Blvd creating tire blowouts and severe swerving hazards within 45 meters of an active transit stop.”
+            </p>
+</div>
+<!-- Entity Chips Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col justify-between space-y-2">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase">Hazard Type</span>
+<span class="material-symbols-outlined text-[18px] text-error">warning</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Structural Road Failure</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Class A Subgrade Erosion</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col justify-between space-y-2">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase">Threat Profile</span>
+<span class="material-symbols-outlined text-[18px] text-secondary">tire_repair</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Vehicle & Pedestrian Risk</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Evasive Maneuvers Logged</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex flex-col justify-between space-y-2">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase">Atmospheric Factor</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim">rainy</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Rain Pooling Accelerated</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Base Loosening Active</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Priority Analytics, Location & Review (5 cols) -->
+<div class="lg:col-span-5 space-y-space-lg">
+<!-- 3. Priority Level Determination Card -->
+<div class="rounded-xl bg-surface-container-lowest p-space-xl shadow-md space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="space-y-0.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Algorithmic Severity Model</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Triage Severity Rating</h3>
+</div>
+<!-- Priority Badge with Pulse Animation -->
+<div class="relative flex items-center">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-error-container text-on-error-container font-label-lg text-label-lg font-bold shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-ping"></span>
+                HIGH PRIORITY
+              </span>
+</div>
+</div>
+<!-- Radar/Weight Factor List -->
+<div class="space-y-space-sm pt-space-xs">
+<span class="font-label-md text-label-md text-primary font-bold block">Why this was scored High Priority:</span>
+<div class="space-y-2">
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 shrink-0">directions_bus</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Proximity to Transit Anchor</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Located <strong>45 meters</strong> from high-density Metro Line 4 bus transit stop #1029.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 shrink-0">traffic</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Heavy Traffic Arterial</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">High-volume arterial corridor with <strong>12,000+ daily average vehicles</strong>.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 shrink-0">two_wheeler</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Vulnerable Road User Exposure</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Positioned on designated bike route; sudden tire deflection creates severe ejection hazard.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Inline Severity Scoring Metric Gauge SVG -->
+<div class="p-space-md rounded-lg bg-surface-container flex items-center justify-between gap-space-md">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Civic Threat Index</span>
+<div class="font-display-lg text-display-lg text-primary font-bold leading-none">88<span class="text-headline-sm text-on-surface-variant">/100</span></div>
+<span class="font-body-sm text-body-sm text-error font-medium">Automatic Field Crew Tier 1 Flag</span>
+</div>
+<div class="w-24 h-24 shrink-0">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-high" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.8"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="88, 100" stroke-linecap="round" stroke-width="3.8"></path>
+</svg>
+</div>
+</div>
+</div>
+<!-- Geographic Context & GIS Module -->
+<div class="rounded-xl bg-surface-container-lowest p-space-lg shadow-md space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">explore</span>
+<span class="font-headline-sm text-headline-sm text-primary">Municipal GIS Pin</span>
+</div>
+<span class="font-mono text-label-sm text-label-sm text-secondary font-semibold">Ward 7 • Grid F-12</span>
+</div>
+<!-- Static Map Component -->
+<div class="w-full h-56 bg-cover bg-center rounded-lg shadow-sm relative overflow-hidden" data-location="West Highland Blvd, Los Angeles, CA" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPvKhrXYqoSyjsMrXh_8AtpGHzILq5aLg_qG7yVXIQBUval3-16xn66Gg61sUzqqQxQ9PHTehjCtlR07Lzfl5cg4duuyIDkWoiQ73kqWvKzyp53LYIm3APcAYoZ5UkIOebVR2acwHJ8wdY_HZOHFSRFhu5eIZdODfT4i0zINwR-44cNTUeC2y9x3K9LTv6E3kstnf1Dg-ew7Ed2h1jbGEb_X8NLXXpTUr4_oBvS4PQ')">
+<div class="absolute inset-0 bg-primary/20 pointer-events-none"></div>
+<!-- Central Map Pin Pulse -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<span class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center text-white shadow-lg ring-4 ring-white/80 animate-bounce">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+</span>
+<span class="mt-1 px-2 py-0.5 rounded bg-primary text-white text-[10px] font-mono font-bold shadow">CP-08942</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 backdrop-blur px-2.5 py-1 rounded text-[11px] font-label-sm text-primary shadow-sm">
+              West Highland Blvd & N Sycamore Ave
+            </div>
+</div>
+</div>
+<!-- 5. Citizen & Official Review Section -->
+<div class="rounded-xl bg-surface-container-high p-space-lg shadow-sm space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">policy</span>
+<div class="space-y-1">
+<h4 class="font-headline-sm text-headline-sm text-primary">Transparent Oversight Guarantee</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                CivicPulse AI triage models assist municipal engineers and are verified in real time by duty dispatch supervisors. Residents retain complete rights to contest classification or request field reinspection.
+              </p>
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-lg bg-primary text-on-primary hover:bg-primary-container transition-colors font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-sm" id="btn-track">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+              Track Issue Updates & Subscribe SMS
+            </button>
+<button class="w-full py-space-sm px-space-md rounded-lg bg-surface-container-lowest text-primary hover:bg-surface-bright transition-colors font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-sm" onclick="requestReassessment()">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+              Request Priority or Category Reassessment
+            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Audit Timeline Trail Component -->
+<div class="w-full rounded-xl bg-surface-container-lowest p-space-xl shadow-md space-y-space-lg">
+<div class="flex items-center justify-between border-b pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">history_edu</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Cryptographic Audit Trail & Verification Chain</h3>
+</div>
+<span class="font-mono text-label-sm text-label-sm text-on-surface-variant">Ledger Hash: 0x8f2d...b41e</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg relative">
+<!-- Node 1 -->
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">how_to_reg</span>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Step 01 • 09:41:02</span>
+<h5 class="font-label-lg text-label-lg text-primary">Resident Ingestion</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Report received via Citizen Mobile PWA with geotagged media.</p>
+</div>
+</div>
+<!-- Node 2 -->
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">psychology</span>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Step 02 • 09:41:48</span>
+<h5 class="font-label-lg text-label-lg text-primary">Neural Inference</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Model parsed 3 visual artifacts & assigned 98.4% category confidence.</p>
+</div>
+</div>
+<!-- Node 3 -->
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 shadow-sm ring-2 ring-secondary">
+<span class="material-symbols-outlined text-[16px]">alt_route</span>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Step 03 • 09:42:18</span>
+<h5 class="font-label-lg text-label-lg text-primary">District Assignment</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dispatched to District 4 Highway Division active crew backlog.</p>
+</div>
+</div>
+<!-- Node 4 -->
+<div class="flex items-start gap-space-sm opacity-60">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[16px]">construction</span>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase">Step 04 • Pending</span>
+<h5 class="font-label-lg text-label-lg text-on-surface">Crew Field Repair</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Asphalt patch truck dispatched upon shift deployment.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Notification Toast Container for Interactive Clicks -->
+<div class="fixed bottom-6 right-6 max-w-sm bg-primary text-on-primary p-space-md rounded-xl shadow-xl transform translate-y-32 opacity-0 transition-all duration-300 z-50 flex items-center gap-space-sm pointer-events-none" id="toast">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">task_alt</span>
+<div class="flex-1">
+<p class="font-label-lg text-label-lg font-semibold text-white" id="toast-message">Action Completed</p>
+<p class="font-body-sm text-body-sm text-surface-container-high" id="toast-subtext">Incident log has been updated.</p>
+</div>
+</div>
+</div>
+<script>
+  // Duplicates Drawer Toggle
+  const toggleDupBtn = document.getElementById('toggle-duplicates');
+  const dupDrawer = document.getElementById('duplicate-drawer');
+  const dupChevron = document.getElementById('dup-chevron');
+  const dupBtnText = document.getElementById('dup-btn-text');
+
+  let duplicatesOpen = true;
+
+  if (toggleDupBtn && dupDrawer) {
+    toggleDupBtn.addEventListener('click', () => {
+      duplicatesOpen = !duplicatesOpen;
+      if (duplicatesOpen) {
+        dupDrawer.style.display = 'block';
+        dupChevron.style.transform = 'rotate(0deg)';
+        dupBtnText.textContent = 'Hide Matches';
+      } else {
+        dupDrawer.style.display = 'none';
+        dupChevron.style.transform = 'rotate(-90deg)';
+        dupBtnText.textContent = 'Review 2 Matches';
+      }
+    });
+  }
+
+  // Toast Functionality
+  function showToast(title, description) {
+    const toast = document.getElementById('toast');
+    const msg = document.getElementById('toast-message');
+    const sub = document.getElementById('toast-subtext');
+    if (!toast || !msg || !sub) return;
+
+    msg.textContent = title;
+    sub.textContent = description;
+    toast.classList.remove('translate-y-32', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('translate-y-32', 'opacity-0');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 4000);
+  }
+
+  // Duplicate Actions
+  window.handleMerge = function(ticketId) {
+    showToast('Tickets Merged Successfully', `CP-2025-08942 telemetry appended to master issue #${ticketId}. Priority recalculated.`);
+  };
+
+  window.handleKeepSeparate = function() {
+    showToast('Validated as Separate Incident', 'Marked as independent road condition node for distinct maintenance unit.');
+  };
+
+  window.requestReassessment = function() {
+    showToast('Reassessment Ticket Created', 'A municipal duty supervisor will review category weight within 90 minutes.');
+  };
+
+  // Button Listeners
+  const trackBtn = document.getElementById('btn-track');
+  if (trackBtn) {
+    trackBtn.addEventListener('click', () => {
+      showToast('Notifications Active', 'SMS updates enabled for reference ID CP-2025-08942.');
+    });
+  }
+
+  const shareBtn = document.getElementById('btn-share');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', () => {
+      navigator.clipboard?.writeText(window.location.href);
+      showToast('Link Copied to Clipboard', 'Secure public tracking URL generated for sharing.');
+    });
+  }
+
+  const downloadBtn = document.getElementById('btn-download');
+  if (downloadBtn) {
+    downloadBtn.addEventListener('click', () => {
+      showToast('Preparing PDF Dossier', 'Generating stamped municipal incident report with AI confidence logs...');
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_6px_rgba(0,0,0,0.02)]"><div class="max-w-[1440px] mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-xl"><div class="space-y-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[28px]">account_balance</span><span class="font-headline-sm text-headline-sm text-primary">CivicPulse</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Intelligent civic routing, real-time dispatch verification, and transparent municipal management powered by open civic algorithms.</p><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">emergency</span>Emergency Hotline: Dial 911</div></div><div class="space-y-space-sm"><h3 class="font-label-lg text-label-lg text-primary">Municipal Departments</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Public Works & Infrastructure</li><li>Sanitation & Environmental Services</li><li>Transportation & Traffic Division</li><li>Code Compliance & Safety</li></ul></div><div class="space-y-space-sm"><h3 class="font-label-lg text-label-lg text-primary">Civic Open Data</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Public GIS Dataset</li><li>Incident Resolution Audit Logs</li><li>Quarterly Transparency Index</li><li>Municipal SLA Tracker</li></ul></div><div class="space-y-space-sm"><h3 class="font-label-lg text-label-lg text-primary">Resident Resources</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Accessibility Accommodations</li><li>Whistleblower & Integrity Unit</li><li>Resident Privacy Policy</li><li>Terms of Civic Participation</li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 CivicPulse Municipal Platform. Certified Open Civic Framework.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm"><a class="hover:text-primary transition-colors" href="#">Data Privacy</a><a class="hover:text-primary transition-colors" href="#">Public Records Law</a><a class="hover:text-primary transition-colors" href="#">Algorithmic Transparency</a></div></div></div></footer></body></html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary":"#001329","on-primary-fixed":"#011d35","inverse-surface":"#283044","on-secondary-fixed":"#00201d","inverse-primary":"#b0c9e8","tertiary-fixed-dim":"#abc8f4","outline":"#74777e","on-background":"#131b2e","surface-dim":"#d2d9f4","surface-container-low":"#f2f3ff","on-surface-variant":"#43474d","on-secondary":"#ffffff","on-error-container":"#93000a","on-secondary-container":"#006f66","surface-container-lowest":"#ffffff","on-primary-container":"#7991af","on-primary":"#ffffff","on-tertiary-fixed-variant":"#2a486d","surface-bright":"#faf8ff","secondary-fixed-dim":"#6bd8cb","surface-container":"#eaedff","outline-variant":"#c3c6ce","background":"#faf8ff","on-surface":"#131b2e","primary-container":"#0f2942","error-container":"#ffdad6","secondary-container":"#86f2e4","on-tertiary-container":"#7390b9","surface-variant":"#dae2fd","surface-tint":"#49607c","on-secondary-fixed-variant":"#005049","on-primary-fixed-variant":"#314863","tertiary-container":"#02284b","inverse-on-surface":"#eef0ff","error":"#ba1a1a","on-tertiary":"#ffffff","surface-container-highest":"#dae2fd","on-tertiary-fixed":"#001c38","secondary-fixed":"#89f5e7","on-error":"#ffffff","surface-container-high":"#e2e7ff","secondary":"#006a61","tertiary-fixed":"#d3e4ff","primary-fixed-dim":"#b0c9e8","primary-fixed":"#d1e4ff","primary":"#001428","surface":"#faf8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","space-xs":"0.25rem","space-sm":"0.5rem","margin":"2rem","space-xl":"2.5rem","space-lg":"1.5rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-md":"1rem"},"fontFamily":{"label-sm":["Inter"],"label-lg":["Inter"],"display-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"label-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Inter"]},"fontSize":{"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="CivicPulse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WoMSEfhGj8SOwPzmyHUUZ7N6XhWCMOcL7-Nh7Hot50G2J7WbnfbgnV9L2TJrOe6R3s3WzED153_TtRfx6uxoce_o-yKZHrGybxwupdIxDJnB8AouRapoAXtdAFBUxsg8eZbJtC3k9QOYxCjW-e2OzxXQfCVkWcxDyQItS9C47P5tmf7fxbay3UTXiHGtxVaVd44LjRNmQOt20q1bn5RffVcNGE9x0gl8T7tghNmpqNhw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-none">CivicPulse</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mt-1">Municipal Intelligence</span></div></div><nav class="hidden lg:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary rounded-lg font-label-lg"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="home" href="#">Home</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="report-issue" href="#">Report Issue</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="public-map-trends" href="#">Public Map & Trends</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="ai-analysis" href="#">AI Analysis</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors flex items-center gap-space-xs" data-path="admin-portal" href="#">Admin Portal<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Staff</span></a></nav><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center bg-surface-container-low rounded-lg px-space-md py-space-xs gap-space-sm"><span class="material-symbols-outlined text-on-surface-variant text-[20px]">search</span><input class="bg-transparent border-0 outline-none font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant w-56" placeholder="Search cases, areas, or triage IDs..." type="text"/></div><button aria-label="Civic Alerts" class="relative p-space-sm text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2.5 h-2.5 bg-error rounded-full ring-2 ring-surface-container-lowest"></span></button><a class="hidden sm:inline-flex items-center px-space-md py-space-sm font-label-lg text-label-lg bg-surface-container text-primary hover:bg-surface-container-high rounded-lg transition-colors" data-path="citizen-login" href="#">Citizen Sign In</a><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-secondary-container" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOrjb1Tt5VwPr-hWPL6aT1XfctBaZbjy3oRDaaPy54rfwmqoiJHFTN2m3Q3Se-khnTVa6OSizeSJl7MbB9Xz6tpsukuiAo8sntFnsJ92fuCI8dEmjvPYxMf2zSYK-dKe1ofLT3GxvowqCHBG1R7PgZM-X3FHMmQ1yeoru1GPosLcaIQ3VZTxFrdilRaTtP4vhaGdaKKvLu1Fax1wypaufbAWs5q3O51UBqyJ-msNVa"/><div class="hidden md:flex flex-col text-left"><span class="font-label-sm text-label-sm text-primary leading-tight">City Admin</span><span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight">Public Works</span></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<div class="max-w-[1440px] w-full mx-auto px-margin py-space-md space-y-space-md">
+<!-- Section Context & Quick Header -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-sm pb-space-xs">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wide">Live Municipal GIS</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Real-Time Sensor & Resident Stream</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary mt-1">Metropolitan Spatial Intelligence & Ward Trends</h1>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-1.5 px-space-md py-space-xs rounded-lg bg-surface-container text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px] text-secondary">date_range</span>
+<span>Last 30 Days (Active Dynamic Cycle)</span>
+</div>
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-sm hover:bg-primary-container transition-all">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+<span>Export Dataset</span>
+</button>
+</div>
+</div>
+<!-- Top Unified Control Bar -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-sm">
+<div class="flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-space-md">
+<!-- Search -->
+<div class="relative flex-1 min-w-[280px]">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">manage_search</span>
+<input class="w-full pl-11 pr-4 py-2.5 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-secondary transition-all" placeholder="Search by neighborhood, corridor, Ward 1-6, or case ID..." type="text"/>
+</div>
+<!-- Priority Radios/Buttons -->
+<div class="flex items-center gap-1 bg-surface-container-low p-1 rounded-lg shrink-0">
+<span class="px-space-sm font-label-sm text-label-sm text-on-surface-variant">Priority:</span>
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm bg-surface-container-lowest text-primary shadow-xs">All</button>
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm text-on-surface-variant hover:text-error hover:bg-surface-container-lowest transition-colors flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-error"></span>Critical
+          </button>
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest transition-colors flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-error-container"></span>High
+          </button>
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm text-on-surface-variant hover:text-secondary hover:bg-surface-container-lowest transition-colors flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>Medium
+          </button>
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm text-on-surface-variant hover:text-outline hover:bg-surface-container-lowest transition-colors">Low</button>
+</div>
+</div>
+<!-- Category Filter Pills -->
+<div class="flex items-center gap-space-xs overflow-x-auto pt-space-xs pb-0.5 scrollbar-none">
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-primary text-on-primary whitespace-nowrap flex items-center gap-1.5 shrink-0">
+<span>All Sectors</span>
+<span class="px-1.5 py-0.2 bg-white/20 rounded-full text-[10px]">1,420</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container hover:text-on-surface whitespace-nowrap flex items-center gap-1.5 transition-colors shrink-0">
+<span class="material-symbols-outlined text-[15px] text-secondary">add_road</span>
+<span>Roads & Transit</span>
+<span class="px-1.5 py-0.2 bg-surface-container rounded-full text-[10px]">512</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container hover:text-on-surface whitespace-nowrap flex items-center gap-1.5 transition-colors shrink-0">
+<span class="material-symbols-outlined text-[15px] text-on-secondary-container">water_drop</span>
+<span>Water & Hydrology</span>
+<span class="px-1.5 py-0.2 bg-surface-container rounded-full text-[10px]">280</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container hover:text-on-surface whitespace-nowrap flex items-center gap-1.5 transition-colors shrink-0">
+<span class="material-symbols-outlined text-[15px] text-outline">delete</span>
+<span>Solid Waste</span>
+<span class="px-1.5 py-0.2 bg-surface-container rounded-full text-[10px]">240</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container hover:text-on-surface whitespace-nowrap flex items-center gap-1.5 transition-colors shrink-0">
+<span class="material-symbols-outlined text-[15px] text-primary">bolt</span>
+<span>Power Grid</span>
+<span class="px-1.5 py-0.2 bg-surface-container rounded-full text-[10px]">194</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container hover:text-on-surface whitespace-nowrap flex items-center gap-1.5 transition-colors shrink-0">
+<span class="material-symbols-outlined text-[15px] text-error">shield</span>
+<span>Public Safety</span>
+<span class="px-1.5 py-0.2 bg-surface-container rounded-full text-[10px]">194</span>
+</button>
+</div>
+</div>
+<!-- Main Spatial & Analytic Dual Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- LEFT: Spatial Interactive Map (60% Desktop: col-span-7) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col relative min-h-[780px]">
+<!-- Top Toolbar inside Map Canvas -->
+<div class="absolute top-4 left-4 z-20 flex items-center gap-2">
+<div class="bg-surface-container-lowest/90 backdrop-blur-md rounded-lg shadow-md p-1 flex items-center gap-1">
+<button class="px-2.5 py-1 rounded font-label-sm text-label-sm bg-primary text-on-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">layers</span>Heatmap
+            </button>
+<button class="px-2.5 py-1 rounded font-label-sm text-label-sm text-on-surface-variant hover:bg-surface-container transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">pin_drop</span>Pins
+            </button>
+<button class="px-2.5 py-1 rounded font-label-sm text-label-sm text-on-surface-variant hover:bg-surface-container transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">satellite_alt</span>Satellite
+            </button>
+</div>
+<div class="bg-surface-container-lowest/90 backdrop-blur-md rounded-lg shadow-md px-3 py-1.5 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary">Ward 4 Heatwave Alert</span>
+</div>
+</div>
+<!-- Zoom Controls Overlay -->
+<div class="absolute top-4 right-4 z-20 flex flex-col gap-1 bg-surface-container-lowest/90 backdrop-blur-md p-1 rounded-lg shadow-md">
+<button class="w-8 h-8 rounded flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Zoom in">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+<div class="h-px bg-outline-variant/30 mx-1"></div>
+<button class="w-8 h-8 rounded flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Zoom out">
+<span class="material-symbols-outlined text-[20px]">remove</span>
+</button>
+<div class="h-px bg-outline-variant/30 mx-1"></div>
+<button class="w-8 h-8 rounded flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Recenter">
+<span class="material-symbols-outlined text-[18px]">my_location</span>
+</button>
+</div>
+<!-- SVG Cartographic Engine Canvas -->
+<div class="relative w-full h-[780px] bg-slate-50 overflow-hidden cursor-crosshair select-none">
+<!-- Background Base Vector Grid -->
+<svg class="absolute inset-0 w-full h-full text-slate-200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="40" id="city-grid" patternunits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-dasharray="2 3" stroke-width="0.8"></path>
+</pattern>
+<!-- Heatmap radial gradients -->
+<radialgradient cx="50%" cy="50%" id="heat-highland" r="50%">
+<stop offset="0%" stop-color="#ba1a1a" stop-opacity="0.45"></stop>
+<stop offset="50%" stop-color="#ffdad6" stop-opacity="0.3"></stop>
+<stop offset="100%" stop-color="#ba1a1a" stop-opacity="0"></stop>
+</radialgradient>
+<radialgradient cx="50%" cy="50%" id="heat-riverfront" r="50%">
+<stop offset="0%" stop-color="#006a61" stop-opacity="0.4"></stop>
+<stop offset="60%" stop-color="#86f2e4" stop-opacity="0.2"></stop>
+<stop offset="100%" stop-color="#006a61" stop-opacity="0"></stop>
+</radialgradient>
+<radialgradient cx="50%" cy="50%" id="heat-north" r="50%">
+<stop offset="0%" stop-color="#02284b" stop-opacity="0.35"></stop>
+<stop offset="70%" stop-color="#d3e4ff" stop-opacity="0.15"></stop>
+<stop offset="100%" stop-color="#02284b" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+<!-- Subtle Grid Background -->
+<rect fill="url(#city-grid)" height="100%" width="100%"></rect>
+<!-- River Body -->
+<path d="M-10,340 C140,320 220,440 380,410 C540,380 620,490 850,470 L850,560 C610,570 510,480 370,510 C210,540 120,420 -10,440 Z" fill="#dae2fd" opacity="0.6"></path>
+<!-- Ward Boundaries (Geo Polygon Simulation) -->
+<!-- Ward 1: Downtown Central -->
+<polygon fill="#f2f3ff" opacity="0.8" points="120,180 340,160 360,330 180,360" stroke="#c3c6ce" stroke-dasharray="4 4" stroke-width="1.5"></polygon>
+<!-- Ward 2: Riverfront South -->
+<polygon fill="#f2f3ff" opacity="0.8" points="180,360 360,330 460,490 280,540" stroke="#c3c6ce" stroke-dasharray="4 4" stroke-width="1.5"></polygon>
+<!-- Ward 3: East Ridge -->
+<polygon fill="#eaedff" opacity="0.8" points="340,160 580,120 620,290 360,330" stroke="#c3c6ce" stroke-dasharray="4 4" stroke-width="1.5"></polygon>
+<!-- Ward 4: Highland Corridor (Critical Cluster) -->
+<polygon fill="#ffdad6" fill-opacity="0.25" points="110,60 340,50 340,160 120,180" stroke="#ba1a1a" stroke-dasharray="5 3" stroke-width="1.5"></polygon>
+<!-- Ward 5: Industrial North -->
+<polygon fill="#eaedff" opacity="0.7" points="340,50 640,40 580,120 340,160" stroke="#c3c6ce" stroke-dasharray="4 4" stroke-width="1.5"></polygon>
+<!-- Ward 6: West Suburbs -->
+<polygon fill="#f2f3ff" opacity="0.6" points="20,180 120,180 180,360 30,340" stroke="#c3c6ce" stroke-dasharray="4 4" stroke-width="1.5"></polygon>
+<!-- Major Arterials and Expressways -->
+<path d="M-20,110 L750,90" stroke="#b0c9e8" stroke-linecap="round" stroke-width="5"></path>
+<path d="M120,0 L160,780" stroke="#b0c9e8" stroke-width="4"></path>
+<path d="M350,20 L370,780" stroke="#cbd5e1" stroke-width="3"></path>
+<path d="M520,30 L490,750" stroke="#cbd5e1" stroke-width="3"></path>
+<path d="M30,240 C220,220 400,270 750,230" stroke="#ffffff" stroke-width="4"></path>
+<path d="M30,240 C220,220 400,270 750,230" stroke="#94a3b8" stroke-width="2"></path>
+<!-- Ward Label Badges -->
+<text fill="#ba1a1a" font-family="Inter" font-size="11" font-weight="700" x="140" y="85">WARD 4 (HIGHLAND)</text>
+<text fill="#475569" font-family="Inter" font-size="11" font-weight="600" x="210" y="235">WARD 1 (CENTRAL)</text>
+<text fill="#475569" font-family="Inter" font-size="11" font-weight="600" x="420" y="195">WARD 3 (EAST HILL)</text>
+<text fill="#475569" font-family="Inter" font-size="11" font-weight="600" x="440" y="80">WARD 5 (NORTH)</text>
+<text fill="#006a61" font-family="Inter" font-size="11" font-weight="600" x="280" y="440">WARD 2 (RIVERFRONT)</text>
+<!-- Heatmap Density Blobs -->
+<circle cx="230" cy="115" fill="url(#heat-highland)" r="95"></circle>
+<circle cx="340" cy="460" fill="url(#heat-riverfront)" r="110"></circle>
+<circle cx="510" cy="90" fill="url(#heat-north)" r="75"></circle>
+</svg>
+<!-- Hotspot Region Labels -->
+<div class="absolute top-[80px] left-[150px] pointer-events-none">
+<span class="px-2 py-0.5 rounded bg-error/90 text-on-error font-label-sm text-[10px] shadow-sm uppercase tracking-wider">High Density Alert • Ward 4</span>
+</div>
+<div class="absolute top-[440px] left-[260px] pointer-events-none">
+<span class="px-2 py-0.5 rounded bg-secondary/85 text-on-secondary font-label-sm text-[10px] shadow-sm">Downtown Riverfront Corridor</span>
+</div>
+<div class="absolute top-[65px] left-[460px] pointer-events-none">
+<span class="px-2 py-0.5 rounded bg-primary/80 text-on-primary font-label-sm text-[10px] shadow-sm">North Industrial Zone</span>
+</div>
+<!-- Interactive Complaint Pins -->
+<!-- Pin 1: Critical (Ward 4 Focus) -->
+<div class="absolute top-[135px] left-[245px] -translate-x-1/2 -translate-y-full cursor-pointer group z-30">
+<div class="relative flex items-center justify-center">
+<span class="absolute w-8 h-8 rounded-full bg-error/25 animate-ping"></span>
+<div class="w-7 h-7 rounded-full bg-error text-on-error flex items-center justify-center shadow-md ring-2 ring-white">
+<span class="material-symbols-outlined text-[16px]">warning</span>
+</div>
+</div>
+<!-- Active Popover Tooltip (Pinned default to show rich context) -->
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 bg-surface-container-lowest text-on-surface rounded-lg shadow-xl p-space-sm z-50 pointer-events-auto">
+<div class="flex items-center justify-between pb-1 mb-1 border-b border-surface-container">
+<span class="font-label-sm text-[10px] text-error uppercase font-bold tracking-wider">Case #8942 • Critical</span>
+<span class="px-1.5 py-0.2 rounded-full bg-error-container text-on-error-container font-label-sm text-[10px]">Dispatched</span>
+</div>
+<p class="font-headline-sm text-sm text-primary font-semibold">W Highland Blvd & 14th St</p>
+<p class="font-body-sm text-xs text-on-surface-variant mt-0.5">Severe structural asphalt void / 18" pothole creating transit hazard.</p>
+<div class="mt-2 pt-1 flex items-center justify-between text-[11px] font-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[13px] text-secondary">schedule</span>24m ago</span>
+<span class="text-secondary font-medium">Crew: Unit PW-4B</span>
+</div>
+<div class="w-3 h-3 bg-surface-container-lowest rotate-45 absolute -bottom-1.5 left-1/2 -translate-x-1/2"></div>
+</div>
+</div>
+<!-- Pin 2: High Priority Water Issue -->
+<div class="absolute top-[110px] left-[295px] -translate-x-1/2 -translate-y-full cursor-pointer z-10 group">
+<div class="w-6 h-6 rounded-full bg-error-container text-on-error-container flex items-center justify-center shadow-md ring-2 ring-white hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">water_drop</span>
+</div>
+</div>
+<!-- Pin 3: Clustered Marker (Ward 4) -->
+<div class="absolute top-[170px] left-[180px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="px-2 py-1 rounded-full bg-primary text-on-primary font-label-sm text-xs shadow-md ring-2 ring-white flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span>18 Cases</span>
+</div>
+</div>
+<!-- Pin 4: Medium Teal Pin (Riverfront) -->
+<div class="absolute top-[480px] left-[340px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md ring-2 ring-white hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">lightbulb</span>
+</div>
+</div>
+<!-- Pin 5: Medium Teal Pin 2 -->
+<div class="absolute top-[430px] left-[410px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md ring-2 ring-white hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">delete</span>
+</div>
+</div>
+<!-- Pin 6: Resolved Green Checkmark -->
+<div class="absolute top-[280px] left-[260px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="w-6 h-6 rounded-full bg-on-secondary-container text-white flex items-center justify-center shadow-md ring-2 ring-white">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<!-- Pin 7: Resolved Green Checkmark -->
+<div class="absolute top-[320px] left-[420px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="w-6 h-6 rounded-full bg-on-secondary-container text-white flex items-center justify-center shadow-md ring-2 ring-white">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<!-- Pin 8: Slate Low Priority -->
+<div class="absolute top-[220px] left-[520px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="w-5 h-5 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center shadow-xs ring-1 ring-white">
+<span class="material-symbols-outlined text-[12px]">signpost</span>
+</div>
+</div>
+<!-- Pin 9: Industrial Cluster -->
+<div class="absolute top-[85px] left-[530px] -translate-x-1/2 -translate-y-full cursor-pointer z-10">
+<div class="px-2 py-0.5 rounded-full bg-outline text-white font-label-sm text-[11px] shadow-sm ring-1 ring-white">
+              +7
+            </div>
+</div>
+<!-- Bottom Floating Map Legend -->
+<div class="absolute bottom-4 left-4 right-4 z-20 bg-surface-container-lowest/95 backdrop-blur-md rounded-xl p-space-sm shadow-md flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md flex-wrap text-label-sm font-label-sm text-on-surface-variant">
+<span class="font-bold text-primary">Map Symbology:</span>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span>Critical / Emergent</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-error-container"></span>
+<span>High Priority</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span>Medium Priority</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-surface-variant"></span>
+<span>Low / Routine</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-on-secondary-container"></span>
+<span>Verified Resolved</span>
+</div>
+</div>
+<div class="flex items-center gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-secondary">update</span>
+<span>Updated 3 mins ago</span>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT: Insights, Predictive Intelligence & Vital Stats (40% Desktop: col-span-5) -->
+<div class="lg:col-span-5 space-y-space-md">
+<!-- 1. Community Vital Stats 3-Card Deck -->
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- Total Reported -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Reported</span>
+<span class="material-symbols-outlined text-[18px] text-primary">inventory_2</span>
+</div>
+<div class="mt-2">
+<p class="font-display-lg text-[28px] leading-tight font-bold text-primary">1,420</p>
+<div class="flex items-center gap-0.5 mt-0.5 text-secondary font-label-sm text-[11px]">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+<span>+12% vs last mo</span>
+</div>
+</div>
+</div>
+<!-- Total Resolved -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Resolved</span>
+<span class="material-symbols-outlined text-[18px] text-secondary">task_alt</span>
+</div>
+<div class="mt-2">
+<p class="font-display-lg text-[28px] leading-tight font-bold text-secondary">1,185</p>
+<div class="flex items-center gap-0.5 mt-0.5 text-on-surface-variant font-label-sm text-[11px]">
+<span>83.4% turnaround</span>
+</div>
+</div>
+</div>
+<!-- Active Cases -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Pending</span>
+<span class="material-symbols-outlined text-[18px] text-error">pending_actions</span>
+</div>
+<div class="mt-2">
+<p class="font-display-lg text-[28px] leading-tight font-bold text-error">235</p>
+<div class="flex items-center gap-0.5 mt-0.5 text-on-surface-variant font-label-sm text-[11px]">
+<span>Active field teams</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. AI-Generated Civic Action Brief (Prominent Placement) -->
+<div class="bg-gradient-to-br from-tertiary via-primary-container to-primary text-on-primary p-space-md rounded-xl shadow-md relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-32 h-32 rounded-full bg-secondary-container/10 blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-1.5">
+<div class="w-6 h-6 rounded-md bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-semibold tracking-wide">CivicPulse AI Strategic Brief</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-white/10 text-white font-label-sm text-[10px]">Model v4.2 • High Confidence</span>
+</div>
+<p class="font-body-md text-body-md text-surface-container-high leading-relaxed mt-2">
+            Seasonal temperature drops have increased asphalt degradation along the Northern transit artery by <span class="text-white font-semibold underline decoration-secondary">28%</span>. Recommend preemptive resurfacing team allocation to <span class="text-white font-semibold">Ward 4</span> prior to upcoming weekend rain front to mitigate localized vehicle damage.
+          </p>
+<div class="mt-space-md pt-space-sm border-t border-white/10 flex items-center justify-between">
+<div class="flex items-center gap-1.5 text-surface-container-high font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+<span>Authorized for DPW Resource Scheduler</span>
+</div>
+<button class="px-space-sm py-1 rounded bg-secondary text-on-secondary hover:bg-secondary/90 font-label-sm text-label-sm flex items-center gap-1 transition-colors">
+<span>Generate Triage Plan</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- 2. Complaint-Category Distribution Chart -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Departmental Distribution</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Proportion of citizen reports by municipal responsibility</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">bar_chart</span>
+</div>
+<!-- Bar Visualizations -->
+<div class="space-y-3 pt-1">
+<!-- Item 1: Roads -->
+<div>
+<div class="flex justify-between items-center text-xs font-label-md mb-1">
+<span class="text-on-surface flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded bg-primary"></span>Roads & Transit Infrastructure
+                </span>
+<span class="font-bold text-primary">36% <span class="text-on-surface-variant font-normal">(512)</span></span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-2.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 36%"></div>
+</div>
+</div>
+<!-- Item 2: Water -->
+<div>
+<div class="flex justify-between items-center text-xs font-label-md mb-1">
+<span class="text-on-surface flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded bg-secondary"></span>Water & Sewage Systems
+                </span>
+<span class="font-bold text-primary">20% <span class="text-on-surface-variant font-normal">(280)</span></span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-2.5 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 20%"></div>
+</div>
+</div>
+<!-- Item 3: Waste -->
+<div>
+<div class="flex justify-between items-center text-xs font-label-md mb-1">
+<span class="text-on-surface flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded bg-outline"></span>Waste & Sanitation Logistics
+                </span>
+<span class="font-bold text-primary">17% <span class="text-on-surface-variant font-normal">(240)</span></span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-2.5 overflow-hidden">
+<div class="bg-outline h-full rounded-full" style="width: 17%"></div>
+</div>
+</div>
+<!-- Item 4: Electricity -->
+<div>
+<div class="flex justify-between items-center text-xs font-label-md mb-1">
+<span class="text-on-surface flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded bg-tertiary-container"></span>Power & Public Lighting
+                </span>
+<span class="font-bold text-primary">14% <span class="text-on-surface-variant font-normal">(194)</span></span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-2.5 overflow-hidden">
+<div class="bg-tertiary-container h-full rounded-full" style="width: 14%"></div>
+</div>
+</div>
+<!-- Item 5: Safety -->
+<div>
+<div class="flex justify-between items-center text-xs font-label-md mb-1">
+<span class="text-on-surface flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded bg-error"></span>Public Safety & Hazard Mitigation
+                </span>
+<span class="font-bold text-primary">13% <span class="text-on-surface-variant font-normal">(194)</span></span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-2.5 overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 13%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. Recurring Civic Problems & Area Trends -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-sm">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Recurring Regional Anomalies</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Automated cluster detection flagged over past 7 days</p>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-[11px] font-semibold">2 Detected</span>
+</div>
+<div class="space-y-space-xs pt-1">
+<!-- Anomaly 1 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors flex items-start gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-error-container text-on-error-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">water_damage</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<h4 class="font-label-lg text-label-lg text-primary truncate">Ward 4 Water Pressure Drops</h4>
+<span class="text-error font-label-sm text-[11px] font-bold shrink-0">34 reports / 7d</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-snug">
+                  Correlated reports across 5 city blocks point to subterranean feeder pipe fault along Elm & Northway.
+                </p>
+<div class="flex items-center gap-space-md mt-2 text-label-sm font-label-sm text-secondary">
+<span class="flex items-center gap-1 cursor-pointer hover:underline">
+<span class="material-symbols-outlined text-[14px]">visibility</span>View GIS Cluster
+                  </span>
+<span class="text-on-surface-variant">•</span>
+<span class="text-on-surface-variant">Inspection scheduled tomorrow 08:30</span>
+</div>
+</div>
+</div>
+<!-- Anomaly 2 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors flex items-start gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">light_group</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<h4 class="font-label-lg text-label-lg text-primary truncate">South Avenue Streetlight Outages</h4>
+<span class="text-secondary font-label-sm text-[11px] font-bold shrink-0">8 fixtures down</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-snug">
+                  Continuous sequence along river walk segment. Circuit breaker fault suspected in junction box #41.
+                </p>
+<div class="flex items-center gap-space-md mt-2 text-label-sm font-label-sm text-secondary">
+<span class="flex items-center gap-1 cursor-pointer hover:underline">
+<span class="material-symbols-outlined text-[14px]">visibility</span>View GIS Cluster
+                  </span>
+<span class="text-on-surface-variant">•</span>
+<span class="text-on-surface-variant">Assigned to Grid Contractor</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Triage Feed Card Snippet -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[18px]">stream</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary">Live Citizen Dispatch Stream Active</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Last verified report filed by resident in Ward 2</p>
+</div>
+</div>
+<button class="px-space-sm py-1 rounded bg-surface-container-lowest hover:bg-surface text-primary font-label-sm text-label-sm shadow-xs transition-colors">
+            Audit Stream
+          </button>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_6px_rgba(0,0,0,0.02)]"><div class="max-w-[1440px] mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-xl"><div class="space-y-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[28px]">account_balance</span><span class="font-headline-sm text-headline-sm text-primary">CivicPulse</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Intelligent civic routing, real-time dispatch verification, and transparent municipal management powered by open civic algorithms.</p><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">emergency</span>Emergency Hotline: Dial 911</div></div><div class="space-y-space-sm"><h3 class="font-label-lg text-label-lg text-primary">Municipal Departments</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Public Works & Infrastructure</li><li>Sanitation & Environmental Services</li><li>Transportation & Traffic Division</li><li>Code Compliance & Safety</li></ul></div><div class="space-y-space-sm"><h3 class="font-label-lg text-label-lg text-primary">Civic Open Data</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Public GIS Dataset</li><li>Incident Resolution Audit Logs</li><li>Quarterly Transparency Index</li><li>Municipal SLA Tracker</li></ul></div><div class="space-y-space-sm"><h3 class="font-label-lg text-label-lg text-primary">Resident Resources</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Accessibility Accommodations</li><li>Whistleblower & Integrity Unit</li><li>Resident Privacy Policy</li><li>Terms of Civic Participation</li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 CivicPulse Municipal Platform. Certified Open Civic Framework.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm"><a class="hover:text-primary transition-colors" href="#">Data Privacy</a><a class="hover:text-primary transition-colors" href="#">Public Records Law</a><a class="hover:text-primary transition-colors" href="#">Algorithmic Transparency</a></div></div></div></footer></body></html>
