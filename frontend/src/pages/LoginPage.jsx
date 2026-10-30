@@ -63,17 +63,18 @@ export default function LoginPage() {
           {successMsg && <AlertBanner type="success" message={successMsg} onDismiss={() => setSuccessMsg(null)} />}
           {error && <AlertBanner type="error" message={error} onDismiss={() => setError(null)} />}
 
-          <form onSubmit={handleSubmit} className="bg-surface-container-lowest rounded-xl shadow-sm p-space-xl space-y-space-md">
+          <form onSubmit={handleSubmit} className="bg-surface-container-lowest rounded-xl shadow-sm p-space-xl space-y-space-md" noValidate aria-label="Sign in form">
             <div className="space-y-space-xs">
               <label htmlFor="email" className="font-label-lg text-label-lg text-primary block">
-                Email Address <span className="text-error">*</span>
+                Email Address <span className="text-error" aria-hidden="true">*</span>
               </label>
               <div className="relative">
-                <span className="material-symbols-outlined text-on-surface-variant absolute left-3 top-3 text-[20px]">mail</span>
+                <span className="material-symbols-outlined text-on-surface-variant absolute left-3 top-3 text-[20px]" aria-hidden="true">mail</span>
                 <input
                   id="email"
                   type="email"
                   required
+                  aria-required="true"
                   autoComplete="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
@@ -85,14 +86,15 @@ export default function LoginPage() {
 
             <div className="space-y-space-xs">
               <label htmlFor="password" className="font-label-lg text-label-lg text-primary block">
-                Password <span className="text-error">*</span>
+                Password <span className="text-error" aria-hidden="true">*</span>
               </label>
               <div className="relative">
-                <span className="material-symbols-outlined text-on-surface-variant absolute left-3 top-3 text-[20px]">lock</span>
+                <span className="material-symbols-outlined text-on-surface-variant absolute left-3 top-3 text-[20px]" aria-hidden="true">lock</span>
                 <input
                   id="password"
                   type="password"
                   required
+                  aria-required="true"
                   autoComplete="current-password"
                   value={password}
                   onChange={e => setPassword(e.target.value)}
@@ -105,12 +107,14 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={loading || !configured}
+              aria-busy={loading}
+              aria-label={loading ? 'Signing in, please wait' : 'Sign in to CivicPulse'}
               className="w-full py-3 rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg hover:bg-on-secondary-container transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-sm"
             >
               {loading ? (
-                <><span className="w-5 h-5 rounded-full border-2 border-on-secondary border-t-transparent animate-spin"></span> Signing in…</>
+                <><span className="w-5 h-5 rounded-full border-2 border-on-secondary border-t-transparent animate-spin" aria-hidden="true"></span> Signing in…</>
               ) : (
-                <><span className="material-symbols-outlined text-[20px]">login</span> Sign In</>
+                <><span className="material-symbols-outlined text-[20px]" aria-hidden="true">login</span> Sign In</>
               )}
             </button>
           </form>

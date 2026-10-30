@@ -37,16 +37,16 @@ export default function NavBar() {
   };
 
   return (
-    <header className="w-full bg-primary shadow-md sticky top-0 z-50">
+    <header className="w-full bg-primary shadow-md sticky top-0 z-50" role="banner">
       <div className="max-w-[1440px] mx-auto px-margin flex items-center justify-between h-16">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-space-sm shrink-0">
-          <span className="material-symbols-outlined text-secondary-fixed text-[28px]">account_balance</span>
+        <Link to="/" className="flex items-center gap-space-sm shrink-0" aria-label="CivicPulse home">
+          <span className="material-symbols-outlined text-secondary-fixed text-[28px]" aria-hidden="true">account_balance</span>
           <span className="font-headline-sm text-headline-sm text-surface-bright hidden sm:block">CivicPulse</span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
           {navLink('/', 'Home', 'home')}
           {navLink('/map', 'Public Map', 'map')}
           {user && navLink('/submit', 'Report Issue', 'add_circle')}
@@ -70,9 +70,10 @@ export default function NavBar() {
               </div>
               <button
                 onClick={handleSignOut}
+                aria-label="Sign out"
                 className="flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-surface-bright font-label-md text-label-md transition-all"
               >
-                <span className="material-symbols-outlined text-[18px]">logout</span>
+                <span className="material-symbols-outlined text-[18px]" aria-hidden="true">logout</span>
                 Sign Out
               </button>
             </div>
@@ -100,7 +101,7 @@ export default function NavBar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-primary-container border-t border-surface-container-lowest/10 px-margin py-space-md space-y-1">
+        <div className="md:hidden bg-primary-container border-t border-surface-container-lowest/10 px-margin py-space-md space-y-1" role="navigation" aria-label="Mobile navigation">
           {navLink('/', 'Home', 'home')}
           {navLink('/map', 'Public Map', 'map')}
           {user && navLink('/submit', 'Report Issue', 'add_circle')}

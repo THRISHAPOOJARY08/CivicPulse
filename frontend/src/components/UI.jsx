@@ -51,13 +51,18 @@ export function AlertBanner({ type = 'error', message, onDismiss }) {
     info:    'bg-surface-container text-on-surface'
   };
   const icons = { error: 'error', success: 'check_circle', warning: 'warning', info: 'info' };
+  const roleMap = { error: 'alert', success: 'status', warning: 'alert', info: 'status' };
   return (
-    <div className={`flex items-start gap-space-sm p-space-md rounded-xl ${styles[type]}`} role="alert">
-      <span className="material-symbols-outlined text-[20px] shrink-0">{icons[type]}</span>
+    <div
+      className={`flex items-start gap-space-sm p-space-md rounded-xl ${styles[type]}`}
+      role={roleMap[type]}
+      aria-live={type === 'error' || type === 'warning' ? 'assertive' : 'polite'}
+    >
+      <span className="material-symbols-outlined text-[20px] shrink-0" aria-hidden="true">{icons[type]}</span>
       <p className="flex-1 font-body-md text-body-md">{message}</p>
       {onDismiss && (
-        <button onClick={onDismiss} className="shrink-0 opacity-70 hover:opacity-100" aria-label="Dismiss">
-          <span className="material-symbols-outlined text-[18px]">close</span>
+        <button onClick={onDismiss} className="shrink-0 opacity-70 hover:opacity-100" aria-label="Dismiss alert">
+          <span className="material-symbols-outlined text-[18px]" aria-hidden="true">close</span>
         </button>
       )}
     </div>
@@ -70,9 +75,10 @@ export function AlertBanner({ type = 'error', message, onDismiss }) {
 export function LoadingSpinner({ label = 'Loading…', size = 'md' }) {
   const sizes = { sm: 'w-5 h-5', md: 'w-8 h-8', lg: 'w-12 h-12' };
   return (
-    <div className="flex flex-col items-center gap-space-sm py-space-xl">
-      <div className={`${sizes[size]} rounded-full border-4 border-surface-container-high border-t-secondary animate-spin`}></div>
+    <div className="flex flex-col items-center gap-space-sm py-space-xl" role="status" aria-live="polite">
+      <div className={`${sizes[size]} rounded-full border-4 border-surface-container-high border-t-secondary animate-spin`} aria-hidden="true"></div>
       {label && <p className="font-body-sm text-body-sm text-on-surface-variant">{label}</p>}
+      <span className="sr-only">{label}</span>
     </div>
   );
 }
